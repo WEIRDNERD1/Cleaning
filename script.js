@@ -21,7 +21,7 @@ document.getElementById('bookingForm').addEventListener('submit', function(e) {
     - Frequency: ${frequency}`;
 
     // WhatsApp link format (replace 1234567890 with your business number)
-    let whatsappUrl = `https://wa.me/07035361752?text=${encodeURIComponent(message)}`;
+    let whatsappUrl = `https://wa.me/message/73WTGY4UPD4XG1${encodeURIComponent(message)}`;
     
     // Open WhatsApp with pre-filled message
     window.open(whatsappUrl, '_blank');
