@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Deep Cleaning Appointment</title>
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Book a Deep Cleaning Appointment</h1>
+    <form id="bookingForm">
+        <!-- User Info -->
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Enter your full name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" placeholder="Enter your phone number" required>
+
+        <!-- Appointment Date and Time -->
+        <label for="date">Preferred Date</label>
+        <input type="date" id="date" required>
+
+        <label for="time">Preferred Time</label>
+        <input type="time" id="time" required>
+
+        <!-- Frequency Dropdown -->
+        <label for="frequency">Frequency</label>
+        <select id="frequency" required>
+            <option value="weekly">Weekly</option>
+            <option value="bi-weekly">Bi-Weekly</option>
+            <option value="monthly">Monthly</option>
+        </select>
+
+        <!-- Submit Button -->
+        <button type="submit">Book & Message on WhatsApp</button>
+    </form>
+</div>
+
+<!-- JS Script -->
+<script src="script.js"></script>
+</body>
+</html>
